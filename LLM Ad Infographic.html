@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advertising in the Age of AI: An Infographic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F0F4F8; /* Light neutral background */
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px; /* Max width for readability */
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px; /* Base height */
+            max-height: 400px; /* Max height */
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .energetic-orange { color: #FF5733; }
+        .energetic-yellow { color: #FFC300; }
+        .energetic-light-green { color: #DAF7A6; }
+        .energetic-aqua { color: #33FFBD; }
+        .energetic-blue { color: #337AFF; }
+
+        .bg-energetic-orange { background-color: #FF5733; }
+        .bg-energetic-yellow { background-color: #FFC300; }
+        .bg-energetic-light-green { background-color: #DAF7A6; }
+        .bg-energetic-aqua { background-color: #33FFBD; }
+        .bg-energetic-blue { background-color: #337AFF; }
+
+        .border-energetic-orange { border-color: #FF5733; }
+        .border-energetic-yellow { border-color: #FFC300; }
+        .border-energetic-light-green { border-color: #DAF7A6; }
+        .border-energetic-aqua { border-color: #33FFBD; }
+        .border-energetic-blue { border-color: #337AFF; }
+
+        .gradient-text {
+            background: linear-gradient(to right, #FF5733, #337AFF);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .section-title {
+            font-size: 2.25rem; /* 36px */
+            font-weight: 700;
+            margin-bottom: 1.5rem; /* 24px */
+            text-align: center;
+        }
+        .card {
+            background-color: white;
+            border-radius: 0.75rem; /* 12px */
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            padding: 1.5rem; /* 24px */
+            margin-bottom: 2rem; /* 32px */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex; 
+            flex-direction: column; 
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .card-content-wrapper { 
+            flex-grow: 1;
+        }
+        .stat-number {
+            font-size: 3rem; /* 48px */
+            font-weight: 700;
+            line-height: 1;
+        }
+        .kicker-text {
+            font-size: 0.875rem; /* 14px */
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem; /* 8px */
+        }
+        .icon-placeholder {
+            font-size: 2.5rem; /* 40px */
+            line-height: 1;
+            margin-bottom: 1rem; /* 16px */
+        }
+        .flow-arrow {
+            font-size: 2rem; /* 32px */
+            color: #9CA3AF; /* gray-400 */
+            margin: 0 1rem; /* 16px */
+        }
+        .ad-status-indicator {
+            font-size: 0.8rem; /* 12.8px */
+            font-style: italic;
+            color: #6B7280; /* gray-500 */
+            margin-left: 0.25rem; /* 4px */
+            font-weight: 500; /* medium */
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <header class="py-12 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-500 text-white text-center">
+        <div class="container mx-auto px-6">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Advertising in the Age of AI</h1>
+            <p class="text-xl md:text-2xl mb-6">Navigating Paid Placements and Monetization in Large Language Models</p>
+            <div class="bg-white/20 backdrop-blur-sm p-6 rounded-xl inline-block">
+                <p class="kicker-text text-white/80">Key Insight from the Market:</p>
+                <p class="stat-number energetic-yellow">Limited</p>
+                <p class="text-lg font-medium">Direct, buyable ad placements currently confined to a few pioneering LLM platforms.</p>
+            </div>
+            <p class="mt-6 text-lg max-w-3xl mx-auto">
+                The integration of advertising within Large Language Model (LLM) platforms is a nascent but rapidly evolving landscape. This infographic demystifies current opportunities, platform strategies, and future trends.
+            </p>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-12">
+
+        <section id="key-trends" class="mb-16">
+            <h2 class="section-title gradient-text">The Shifting Tides: Key LLM Advertising Trends</h2>
+            <p class="text-center text-lg text-gray-600 mb-12 max-w-2xl mx-auto">The LLM advertising world is dynamic, characterized by several emerging patterns that are reshaping how brands connect with audiences.</p>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="card text-center">
+                    <div class="card-content-wrapper">
+                        <div class="icon-placeholder energetic-orange">📈</div>
+                        <h3 class="text-xl font-semibold mb-2">Indirect Ads & LLMO</h3>
+                        <p class="text-gray-600">Brands appear in LLM responses via strong web presence and affiliate ecosystems, leading to LLM Optimization (LLMO) strategies.</p>
+                    </div>
+                </div>
+                <div class="card text-center">
+                     <div class="card-content-wrapper">
+                        <div class="icon-placeholder energetic-blue">🗣️</div>
+                        <h3 class="text-xl font-semibold mb-2">Native & Contextual Ads</h3>
+                        <p class="text-gray-600">Future ads aim to be less intrusive, seamlessly integrated as helpful, contextually relevant suggestions within conversations.</p>
+                    </div>
+                </div>
+                <div class="card text-center">
+                    <div class="card-content-wrapper">
+                        <div class="icon-placeholder energetic-aqua">⚙️</div>
+                        <h3 class="text-xl font-semibold mb-2">Platform-Specific Strategies</h3>
+                        <p class="text-gray-600">LLM developers pursue varied monetization paths: direct ads, enhancing existing ad platforms, or focusing on subscriptions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="platform-overview" class="mb-16">
+            <h2 class="section-title gradient-text">Mapping the Terrain: LLM Ad Approaches</h2>
+            <p class="text-center text-lg text-gray-600 mb-12 max-w-2xl mx-auto">Not all LLM platforms approach advertising identically. Understanding these distinctions is crucial for marketers. The landscape is varied, with some platforms pioneering direct ad integrations while others focus on enhancing existing advertising ecosystems or prioritizing subscription models.</p>
+            
+            <div class="mt-12">
+                <h3 class="text-2xl font-semibold mb-6 text-center">Platform Spotlights: Key Ad Strategies</h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="card">
+                        <div class="card-content-wrapper">
+                            <h4 class="text-lg font-semibold energetic-orange mb-1">Perplexity AI</h4>
+                            <p class="text-sm text-gray-600">Pioneering direct in-chat ads (Sponsored Questions, Video Ads) via pilot programs. Focus on commerce integration with "Buy with Pro" and Merchant Program.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content-wrapper">
+                            <h4 class="text-lg font-semibold energetic-blue mb-1"><strong>Google (Gemini & AI Overviews)</strong><span class="ad-status-indicator">(Chatbot Ad-Free)</span></h4>
+                            <p class="text-sm text-gray-600">Ads integrated into AI Overviews (via Google Ads). Gemini chatbot currently ad-free but with future native ad plans. Gemini also a tool for ad creation in Workspace.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content-wrapper">
+                            <h4 class="text-lg font-semibold energetic-aqua mb-1"><strong>Meta (Llama & Meta AI)</strong><span class="ad-status-indicator">(Chatbot Ad-Free)</span></h4>
+                            <p class="text-sm text-gray-600">Llama powers Advantage+ ad tools for Facebook/Instagram. Meta AI chatbot collects data for targeting on other Meta platforms, with potential future in-chat ads.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content-wrapper">
+                            <h4 class="text-lg font-semibold energetic-yellow mb-1"><strong>OpenAI (ChatGPT)</strong><span class="ad-status-indicator">(No Direct Ads)</span></h4>
+                            <p class="text-sm text-gray-600">Currently no direct paid ads; recommendations are "earned." Strong potential for future affiliate models and native sponsored content.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content-wrapper">
+                            <h4 class="text-lg font-semibold mb-1" style="color: #A020F0;"><strong>Grok (xAI/X)</strong><span class="ad-status-indicator">(No Direct In-Chat Ads)</span></h4>
+                            <p class="text-sm text-gray-600">Functions as an ad tool for the X platform (Prefill with Grok, Analyze Campaign). Surfaces web links, not direct Grok-sold ads in chat.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content-wrapper">
+                            <h4 class="text-lg font-semibold mb-1" style="color: #4A4A4A;"><strong>Anthropic (Claude)</strong><span class="ad-status-indicator">(No Direct Ads)</span></h4>
+                            <p class="text-sm text-gray-600">No direct in-chat ads; no clear public roadmap. Monetization via subscriptions and API. Focus on AI safety and enterprise.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-to-buy" class="mb-16">
+            <h2 class="section-title gradient-text">Getting in the Game: Engaging with LLM Ads</h2>
+            <p class="text-center text-lg text-gray-600 mb-12 max-w-2xl mx-auto">Opportunities to buy ad placements are emerging, with Perplexity AI leading direct experimentation.</p>
+            <div class="flex flex-col md:flex-row gap-8"> 
+                <div class="card md:flex-1"> 
+                    <div class="card-content-wrapper">
+                        <h3 class="text-2xl font-semibold energetic-orange mb-4">Perplexity AI Spotlight</h3>
+                        <p class="text-gray-700 mb-3">As an early adopter, Perplexity AI offers direct ad placements, primarily through a controlled pilot program.</p>
+                        <h4 class="text-lg font-semibold mt-4 mb-2">Available Ad Formats:</h4>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1 pl-2">
+                            <li><strong>Sponsored Questions:</strong> Paid questions appearing alongside AI answers.</li>
+                            <li><strong>Video Ads:</strong> Positioned at top of related questions or in sidebar.</li>
+                            <li><strong>Display Ads:</strong> Standard units on desktop and mobile.</li>
+                            <li><strong>Branded Explanatory Text:</strong> Advertiser text above related questions.</li>
+                        </ul>
+                        <div class="mt-6 p-4 bg-blue-50 border-l-4 border-energetic-blue rounded-md">
+                            <p class="kicker-text energetic-blue">Pricing Model & Costs</p>
+                            <p class="text-gray-700">Utilizes a <strong>Cost Per Mille (CPM)</strong> model.</p>
+                            <p class="stat-number energetic-blue mt-1">$30 - $60</p>
+                            <p class="text-gray-600 font-medium">Reported CPM Range</p>
+                        </div>
+                        <p class="mt-4 text-sm text-gray-500">Access currently limited; requires direct contact or inclusion in expanding programs. Merchant Program available for product catalog integration.</p>
+                    </div>
+                </div>
+                <div class="card md:flex-1"> 
+                    <div class="card-content-wrapper">
+                        <h3 class="text-2xl font-semibold energetic-blue mb-4">Other Platforms & Future Engagement</h3>
+                        <div class="space-y-6">
+                            <div>
+                                <h4 class="text-lg font-semibold mb-1">Google AI Overviews & Microsoft Copilot</h4>
+                                <p class="text-gray-600">Ads typically an <strong>automatic opt-in</strong> for eligible campaigns on existing Google Ads or Microsoft Ads platforms. No separate buying process is usually needed.</p>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-semibold mb-1">Future Opportunities (ChatGPT, Gemini Chatbot)</h4>
+                                <p class="text-gray-600">Direct ad buying is not yet available. Strategies include:</p>
+                                <ul class="list-disc list-inside text-gray-600 space-y-1 mt-2 pl-2">
+                                    <li>Monitoring official announcements for beta programs.</li>
+                                    <li>Strengthening affiliate marketing presence, as LLMs often cite content with affiliate links.</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-semibold mb-1">Strategic Consideration: Pioneer vs. Wait</h4>
+                                <p class="text-gray-600">Early engagement offers learning but may involve higher costs and lower scale. Waiting might mean more mature systems but increased competition.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="future-outlook" class="mb-16">
+            <h2 class="section-title gradient-text">The Horizon: Future of LLM Advertising</h2>
+            <p class="text-center text-lg text-gray-600 mb-12 max-w-2xl mx-auto">The LLM advertising landscape is set for significant evolution, with more sophisticated, integrated, and personalized ad experiences.</p>
+            <div class="card mb-12">
+                <div class="card-content-wrapper">
+                    <h3 class="text-2xl font-semibold mb-4 text-center">Evolution of Ad Formats</h3>
+                    <p class="text-center text-gray-600 mb-8">Advertising is expected to move beyond traditional banners towards formats that are more aligned with the conversational nature of LLMs.</p>
+                    <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4">
+                        <div class="p-4 bg-energetic-light-green/30 rounded-lg text-center shadow">
+                            <div class="icon-placeholder energetic-yellow">📝</div>
+                            <h4 class="font-semibold">Native & Contextual</h4>
+                            <p class="text-sm text-gray-600">Ads as helpful tips, subtly integrated.</p>
+                        </div>
+                        <div class="flow-arrow hidden md:block">➔</div>
+                        <div class="md:hidden text-2xl text-gray-400">↓</div>
+                        <div class="p-4 bg-energetic-aqua/30 rounded-lg text-center shadow">
+                            <div class="icon-placeholder energetic-blue">💬</div>
+                            <h4 class="font-semibold">Conversational & Interactive</h4>
+                            <p class="text-sm text-gray-600">Users engage with ads via dialogue.</p>
+                        </div>
+                        <div class="flow-arrow hidden md:block">➔</div>
+                        <div class="md:hidden text-2xl text-gray-400">↓</div>
+                        <div class="p-4 bg-energetic-orange/30 rounded-lg text-center shadow">
+                            <div class="icon-placeholder energetic-orange">🎨</div>
+                            <h4 class="font-semibold">AI-Generated & Personalized</h4>
+                            <p class="text-sm text-gray-600">Creatives tailored in real-time.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content-wrapper">
+                    <h3 class="text-2xl font-semibold mb-2 text-center">Affiliate & Influencer Marketing's Rise</h3>
+                    <p class="text-gray-600 text-center">These channels are gaining prominence. LLMs source from affiliate-rich content, and may adopt direct affiliate models. AI will also refine influencer marketing strategies, with influencer content potentially surfaced by LLMs.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="ethics-sentiment" class="mb-16">
+            <h2 class="section-title gradient-text">The Human Element: Ethics & User Sentiment</h2>
+            <p class="text-center text-lg text-gray-600 mb-12 max-w-2xl mx-auto">Trust is the cornerstone. Navigating ethical considerations and understanding user perceptions are critical for sustainable LLM advertising.</p>
+            <div class="flex flex-col md:flex-row gap-8"> 
+                <div class="card md:flex-1"> 
+                    <div class="card-content-wrapper">
+                        <h3 class="text-2xl font-semibold mb-4 energetic-orange">Ethical Minefield: Key Concerns</h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <span class="energetic-orange mr-2 text-xl">🛡️</span>
+                                <div><strong class="font-medium">Transparency & Disclosure:</strong> Users demand clear labeling of sponsored content.</div>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="energetic-orange mr-2 text-xl">🔒</span>
+                                <div><strong class="font-medium">Data Privacy:</strong> Concerns over extensive data collection for ad targeting.</div>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="energetic-orange mr-2 text-xl">⚖️</span>
+                                <div><strong class="font-medium">Bias & Fairness:</strong> LLM training data can perpetuate biases in ad delivery.</div>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="energetic-orange mr-2 text-xl">❓</span>
+                                <div><strong class="font-medium">Misinformation & Authenticity:</strong> Blurred lines between genuine advice and paid promotions risk eroding trust.</div>
+                            </li>
+                        </ul>
+                         <p class="mt-4 text-sm text-gray-500">Heightened regulatory scrutiny is anticipated, potentially leading to new AI-specific advertising rules.</p>
+                    </div>
+                </div>
+                <div class="card md:flex-1"> 
+                    <div class="card-content-wrapper">
+                        <h3 class="text-2xl font-semibold energetic-blue mb-4">User Voice: Impact on Purchase Intent</h3>
+                        <p class="text-gray-600 mb-6">Consumer sentiment towards brands using AI in ads is mixed and evolving.</p>
+                        <div class="chart-container h-[250px] md:h-[300px]">
+                            <canvas id="userSentimentChart"></canvas>
+                        </div>
+                        <p class="mt-4 text-sm text-gray-500 text-center">Data from recent surveys (e.g., 36% less likely to buy, 54% unswayed, 10% more likely).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="recommendations" class="mb-16">
+            <h2 class="section-title gradient-text">Navigating Forward: Strategic Recommendations</h2>
+            <p class="text-center text-lg text-gray-600 mb-12 max-w-2xl mx-auto">Advertisers need a proactive, adaptable, and ethically conscious approach to succeed in the evolving LLM ad landscape.</p>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="card bg-energetic-light-green/20 border-l-4 border-energetic-aqua">
+                    <div class="card-content-wrapper">
+                        <h3 class="text-lg font-semibold mb-2 energetic-aqua">Embrace LLMO & Content Strategy</h3>
+                        <p class="text-sm text-gray-700">Develop high-quality, authoritative content optimized for natural language and conversational queries. Build brand presence on reputable platforms LLMs are likely to cite.</p>
+                    </div>
+                </div>
+                <div class="card bg-blue-50 border-l-4 border-energetic-blue">
+                    <div class="card-content-wrapper">
+                        <h3 class="text-lg font-semibold mb-2 energetic-blue">Monitor & Experiment Cautiously</h3>
+                        <p class="text-sm text-gray-700">Stay updated on platform developments and consider pilot programs, managing expectations for immediate scale and ROI.</p>
+                    </div>
+                </div>
+                <div class="card bg-yellow-50 border-l-4 border-energetic-yellow">
+                    <div class="card-content-wrapper">
+                        <h3 class="text-lg font-semibold mb-2 energetic-yellow">Prepare for New Ad Formats</h3>
+                        <p class="text-sm text-gray-700">Think contextually and conversationally. Leverage AI tools for ad creative generation and personalization.</p>
+                    </div>
+                </div>
+                <div class="card bg-orange-50 border-l-4 border-energetic-orange">
+                    <div class="card-content-wrapper">
+                        <h3 class="text-lg font-semibold mb-2 energetic-orange">Prioritize Transparency & Trust</h3>
+                        <p class="text-sm text-gray-700">Advocate for clear ad labeling and respect data privacy. Ethical practices are key to long-term success.</p>
+                    </div>
+                </div>
+                <div class="card bg-purple-50 border-l-4" style="border-color: #A020F0;">
+                    <div class="card-content-wrapper">
+                        <h3 class="text-lg font-semibold mb-2" style="color: #A020F0;">Strengthen Affiliate Efforts</h3>
+                        <p class="text-sm text-gray-700">Recognize that strong affiliate presence can lead to indirect LLM visibility. Prepare for potential direct LLM affiliate models.</p>
+                    </div>
+                </div>
+                <div class="card bg-gray-100 border-l-4 border-gray-500">
+                    <div class="card-content-wrapper">
+                        <h3 class="text-lg font-semibold mb-2 text-gray-700">Ask Critical Questions</h3>
+                        <p class="text-sm text-gray-700">When evaluating LLM ad opportunities, consider user base, transparency, advertiser control, targeting, ROI measurement, ethical alignment, and user experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="conclusion" class="text-center py-12 bg-gray-800 text-white rounded-lg shadow-xl">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold mb-6">The Evolving Journey of LLM Advertising</h2>
+                <p class="text-lg max-w-3xl mx-auto mb-4">
+                    The emergence of advertising within Large Language Models signifies a transformative shift in digital marketing. While nascent, the trajectory points towards AI-driven conversational interfaces becoming key channels for discovery, research, and commerce.
+                </p>
+                <p class="text-lg max-w-3xl mx-auto">
+                    Success in this new era demands adaptability, experimentation, a deep understanding of how LLMs operate, and an unwavering commitment to ethical practices that foster user trust. The advertising industry is on the cusp of significant evolution.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center py-8 text-sm text-gray-500">
+        <p>&copy; 2025 LLM Advertising Insights. Infographic based on deep research analysis.</p>
+    </footer>
+
+    <script>
+        function processLabels(labels, maxLength = 16) {
+            return labels.map(label => {
+                if (typeof label === 'string' && label.length > maxLength) {
+                    const words = label.split(' ');
+                    const lines = [];
+                    let currentLine = '';
+                    words.forEach(word => {
+                        if ((currentLine + word).length > maxLength && currentLine.length > 0) {
+                            lines.push(currentLine.trim());
+                            currentLine = word + ' ';
+                        } else {
+                            currentLine += word + ' ';
+                        }
+                    });
+                    lines.push(currentLine.trim());
+                    return lines;
+                }
+                return label;
+            });
+        }
+
+        const tooltipTitleCallback = function(tooltipItems) {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+                return label.join(' ');
+            } else {
+                return label;
+            }
+        };
+
+        const energeticPalette = ['#FF5733', '#337AFF', '#FFC300', '#33FFBD', '#DAF7A6', '#A020F0'];
+
+        // User Sentiment Chart (Bar)
+        const userSentimentCtx = document.getElementById('userSentimentChart').getContext('2d');
+        if (userSentimentCtx) {
+            new Chart(userSentimentCtx, {
+                type: 'bar',
+                data: {
+                    labels: processLabels(['Less Likely to Buy', 'Unswayed by AI Use', 'More Likely to Buy']),
+                    datasets: [{
+                        label: '% of Consumers',
+                        data: [36, 54, 10],
+                        backgroundColor: [energeticPalette[0], energeticPalette[1], energeticPalette[3]],
+                        borderColor: [energeticPalette[0], energeticPalette[1], energeticPalette[3]],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    indexAxis: 'y',
+                    scales: {
+                        x: {
+                            beginAtZero: true,
+                            max: 100,
+                            ticks: { 
+                                callback: function(value) { return value + "%" },
+                                color: '#4B5563' // gray-600
+                            },
+                             grid: { display: false }
+                        },
+                        y: {
+                            ticks: { color: '#4B5563' }, // gray-600
+                            grid: { display: false }
+                        }
+                    },
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            callbacks: { 
+                                title: tooltipTitleCallback,
+                                label: function(context) {
+                                    return `${context.dataset.label}: ${context.raw}%`;
+                                }
+                            },
+                            backgroundColor: '#374151',
+                            titleFont: { size: 14, weight: 'bold' },
+                            bodyFont: { size: 12 },
+                            padding: 10,
+                            cornerRadius: 4
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>
